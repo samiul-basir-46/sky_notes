@@ -105,11 +105,11 @@ class NoteScreen extends StatelessWidget {
             }
           },
           child: Container(
-            margin: EdgeInsets.only(left: 10, right: 10),
+            margin: EdgeInsets.symmetric(horizontal: 25),
             width: double.infinity,
             height: 45,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(5),
+              borderRadius: BorderRadius.circular(10),
               color: AppColor.primaryColor,
             ),
             child: Center(
@@ -122,7 +122,7 @@ class NoteScreen extends StatelessWidget {
                 ),
               ),
             ),
-          ),
+          ).paddingOnly(bottom: 10),
         ),
       ),
     );
