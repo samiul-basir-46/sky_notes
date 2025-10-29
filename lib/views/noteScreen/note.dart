@@ -63,7 +63,9 @@ class NoteScreen extends StatelessWidget {
                 hintStyle: TextStyle(color: Colors.black38),
               ),
             ),
-            const SizedBox(height: 15),
+            const SizedBox(height: 10),
+            Divider(height: 2, color: AppColor.greyColor,thickness: 2,),
+            const SizedBox(height: 10),
             Expanded(
               child: TextFormField(
                 controller: descriptionController,
